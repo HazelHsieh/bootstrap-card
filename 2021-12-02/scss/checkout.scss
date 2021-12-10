@@ -1,0 +1,50 @@
+.progress-step {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress {
+    height: 10px;
+    top:30%;
+    right: 0;
+    transform: translateX(50%);
+}
+
+.orderlist {
+
+    .order-count {
+        justify-content: flex-end;
+
+        // .order-input {
+        //     input::-webkit-outer-spin-button,
+        //     input::-webkit-inner-spin-button {
+        //       -webkit-appearance: none;
+        //       margin: 0;
+        //     };
+        // }
+    }
+
+    .ml-1 {
+        width: 50px;
+    }
+
+}
+
+.order-price {
+    align-items: flex-end;
+
+    > div {
+        span {
+            &:last-child{
+                display: inline-block;
+                width: 100px;
+                text-align: right;
+            }
+        }
+
+    } 
+}
+

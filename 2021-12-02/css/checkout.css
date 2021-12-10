@@ -1,0 +1,44 @@
+.progress-step {
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.progress {
+  height: 10px;
+  top: 30%;
+  right: 0;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+}
+
+.orderlist .order-count {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.orderlist .ml-1 {
+  width: 50px;
+}
+
+.order-price {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.order-price > div span:last-child {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}
+/*# sourceMappingURL=checkout.css.map */
